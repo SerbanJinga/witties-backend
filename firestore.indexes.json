@@ -1,0 +1,33 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "useri",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nume",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "discriminator",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "displayName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "discriminator",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
